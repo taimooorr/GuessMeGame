@@ -16,7 +16,7 @@ public class GuessMe {
         if(beginAnswer==1){
             System.out.println("The Game has Started!");
             Random random = new Random();
-            int randomNumber = random.nextInt(10) + 1;
+            int randomNumber = random.nextInt(15) + 1;
             System.out.println("I have a number between 1 and 10. Can you guess it?\n\n Remember, you have 5 tries!");
             System.out.println("Enter your guess:");
             int userInput = scanner.nextInt();
